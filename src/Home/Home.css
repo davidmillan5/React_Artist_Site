@@ -1,0 +1,7 @@
+.banner {
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/musicianscdm.appspot.com/o/Rayden_banner2.jpg?alt=media&token=3a6b8904-34e6-4781-9419-a567022e0027);
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 25%;
+}
