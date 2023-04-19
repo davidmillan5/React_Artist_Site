@@ -2,10 +2,16 @@ import './History.css';
 export function History() {
   return (
     <>
-      <div className="container">
-        <h1 className="text-center display-1 my-1" id="Bio">
-          Bio
-        </h1>
+      <div className="container-fluid">
+        <div className="row">
+          <p
+            className="text-center bg-dark bg-gradient fw-bold text-light py-3 fs-2"
+            id="Bio"
+          >
+            BIO
+          </p>
+        </div>
+
         <div className="row">
           <div className="col-12 col-md-6">
             <h2 className="text-center mt-2">Rayden</h2>
@@ -15,9 +21,9 @@ export function History() {
               los Gallos.
             </p>
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/musicianscdm.appspot.com/o/Rayden_concert2.webp?alt=media&token=c5d46957-be95-481d-94cd-80caa5864d5c"
+              src="https://cronicaglobal.elespanol.com/uploads/s1/17/70/83/13/el-cantante-rayden.jpeg"
               alt=""
-              className="img-fluid my-2"
+              className="img-fluid"
             />
           </div>
           <div className="col-12 col-md-3">
@@ -31,13 +37,13 @@ export function History() {
               by Sinónimo (2019) and Homónimo (2021).
             </p>
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/musicianscdm.appspot.com/o/Rayden_concert.jpg?alt=media&token=d9de6090-1c28-4120-8758-02ec40e9007f"
+              src="https://static.fnac-static.com/multimedia/Images/ES/Comete/14665/CCP_IMG_ORIGINAL/205280.jpg"
               alt=""
               className="img-fluid my-2"
             />
           </div>
           <div className="col-12 col-md-3">
-            <h2 className="text-center mt-2"> Even More....</h2>
+            <h2 className="text-center my-2"> Even More....</h2>
             <p>
               In November 2021, Rayden headlined a concert at the WiZink Center
               in Madrid dedicated to his twentieth anniversary as an artist. In
@@ -46,9 +52,9 @@ export function History() {
               entry for the Eurovision Song Contest, with the song "Calle de la
               llorería". He finished in fourth place.
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/musicianscdm.appspot.com/o/rayden_img.jpg?alt=media&token=18a22fdb-274a-4bc4-a459-17f6d8452609"
+                src="https://i.discogs.com/_FzxZYo16aMWLR5c-MWXLcj7kTs00IcKjuqnjlT1G98/rs:fit/g:sm/q:90/h:400/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE2Mzc5/MDUtMTQyNDIyODU1/NC0yODQ3LmpwZWc.jpeg"
                 alt=""
-                className="img-fluid my-2"
+                className="img-fluid mt-4"
               />
             </p>
           </div>

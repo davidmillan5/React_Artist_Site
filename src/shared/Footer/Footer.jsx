@@ -3,9 +3,12 @@ export function Footer() {
     <>
       <div className="container-fluid">
         <div className="row">
-          <div className="col">
-            <p className="text-center bg-dark text-light">2023 © RAYDEN</p>
-          </div>
+          <p
+            className="text-center bg-dark bg-gradient fw-bold text-light fs-5"
+            id="Bio"
+          >
+            2023 © RAYDEN
+          </p>
         </div>
       </div>
     </>

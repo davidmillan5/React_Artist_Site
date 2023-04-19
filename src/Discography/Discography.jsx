@@ -1,12 +1,17 @@
 export function Discography() {
   return (
     <>
-      <section className="container my-3">
+      <section className="container-fluid my-3">
         <div className="row">
           <div className="col-12">
-            <h1 className="display-1 text-center" id="Discography">
-              Discography
-            </h1>
+            <div className="row">
+              <p
+                className="text-center bg-dark bg-gradient fw-bold text-light py-3 fs-2"
+                id="Discography"
+              >
+                DISCOGRAPHY
+              </p>
+            </div>
           </div>
         </div>
         <section className="container my-4">
@@ -33,7 +38,7 @@ export function Discography() {
                   </p>
                   <a
                     href="https://open.spotify.com/album/2mREMAaNhb8GrS2WYKnL5E"
-                    className="btn btn-primary d-flex justify-content-center"
+                    className="btn btn-dark d-flex justify-content-center"
                   >
                     Listen
                   </a>
@@ -62,7 +67,7 @@ export function Discography() {
                   </p>
                   <a
                     href="https://open.spotify.com/album/0EtAiF8yIrSzHxr3T30tlR"
-                    className="btn btn-primary d-flex justify-content-center"
+                    className="btn btn-dark d-flex justify-content-center"
                   >
                     Listen
                   </a>
@@ -91,7 +96,7 @@ export function Discography() {
                   </p>
                   <a
                     href="https://open.spotify.com/album/6iIVnrcntQZ4GDPJHTDRk1"
-                    className="btn btn-primary d-flex justify-content-center"
+                    className="btn btn-dark d-flex justify-content-center"
                   >
                     Listen
                   </a>
@@ -124,8 +129,8 @@ export function Discography() {
                       shared by the characters of the Professor and Lisboa.
                     </p>
                     <a
-                      href="https://open.spotify.com/album/2mREMAaNhb8GrS2WYKnL5E"
-                      className="btn btn-primary d-flex justify-content-center"
+                      href="https://open.spotify.com/album/1QTxUsm2IT9Fd2tkhuQU8b"
+                      className="btn btn-dark d-flex justify-content-center"
                     >
                       Listen
                     </a>
@@ -156,8 +161,8 @@ export function Discography() {
                       songs.
                     </p>
                     <a
-                      href="https://open.spotify.com/album/2mREMAaNhb8GrS2WYKnL5E"
-                      className="btn btn-primary d-flex justify-content-center"
+                      href="https://open.spotify.com/album/2ozMuZtWNzXF0arfPgSxY2"
+                      className="btn btn-dark d-flex justify-content-center"
                     >
                       Listen
                     </a>
@@ -189,8 +194,8 @@ export function Discography() {
                       words he had somehow eliminated from his own dictionary.
                     </p>
                     <a
-                      href="https://open.spotify.com/album/2mREMAaNhb8GrS2WYKnL5E"
-                      className="btn btn-primary d-flex justify-content-center"
+                      href="https://open.spotify.com/playlist/5GB5AebdFX4zOuU2bxZzGX"
+                      className="btn btn-dark d-flex justify-content-center"
                     >
                       Listen
                     </a>
