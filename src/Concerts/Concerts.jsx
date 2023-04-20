@@ -1,6 +1,9 @@
+import { Carousel } from '../Carousel/Carousel';
+
 export function Concerts() {
   return (
     <>
+      <Carousel />
       <div className="container-fluid  fs-3 text-center">
         <div className="row">
           <p

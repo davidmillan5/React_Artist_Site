@@ -10,21 +10,6 @@ export function Home() {
   return (
     <>
       <section className="banner"></section>
-      <section>
-        <History></History>
-      </section>
-      <section>
-        <Discography></Discography>
-      </section>
-      <section>
-        <Carousel></Carousel>
-      </section>
-      <section>
-        <Concerts></Concerts>
-      </section>
-      <section>
-        <Footer></Footer>
-      </section>
     </>
   );
 }

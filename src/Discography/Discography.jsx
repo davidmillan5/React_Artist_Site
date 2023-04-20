@@ -3,16 +3,7 @@ export function Discography() {
     <>
       <section className="container-fluid my-3">
         <div className="row">
-          <div className="col-12">
-            <div className="row">
-              <p
-                className="text-center bg-dark bg-gradient fw-bold text-light py-3 fs-2"
-                id="Discography"
-              >
-                DISCOGRAPHY
-              </p>
-            </div>
-          </div>
+          <div className="col-12"></div>
         </div>
         <section className="container my-4">
           <div className="row justify-content-around">
