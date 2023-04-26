@@ -44,6 +44,21 @@ export function Menu() {
                   Concerts
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/shop">
+                  Shop
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/featuring">
+                  Featuring
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/fanzone">
+                  Fanzone
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

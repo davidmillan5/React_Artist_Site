@@ -185,7 +185,7 @@ export function Discography() {
                       words he had somehow eliminated from his own dictionary.
                     </p>
                     <a
-                      href="https://open.spotify.com/playlist/5GB5AebdFX4zOuU2bxZzGX"
+                      href="https://open.spotify.com/album/3i2H6XdDq03iW2bPOv33SP?si=ByW2WksYRri4-rb6vy0sOg"
                       className="btn btn-dark d-flex justify-content-center"
                     >
                       Listen
