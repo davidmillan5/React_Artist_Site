@@ -30,6 +30,7 @@ export function Discography() {
                   <a
                     href="https://open.spotify.com/album/2mREMAaNhb8GrS2WYKnL5E"
                     className="btn btn-dark d-flex justify-content-center"
+                    target="_blank"
                   >
                     Listen
                   </a>
@@ -59,6 +60,7 @@ export function Discography() {
                   <a
                     href="https://open.spotify.com/album/0EtAiF8yIrSzHxr3T30tlR"
                     className="btn btn-dark d-flex justify-content-center"
+                    target="_blank"
                   >
                     Listen
                   </a>
@@ -88,6 +90,7 @@ export function Discography() {
                   <a
                     href="https://open.spotify.com/album/6iIVnrcntQZ4GDPJHTDRk1"
                     className="btn btn-dark d-flex justify-content-center"
+                    target="_blank"
                   >
                     Listen
                   </a>
@@ -122,6 +125,7 @@ export function Discography() {
                     <a
                       href="https://open.spotify.com/album/1QTxUsm2IT9Fd2tkhuQU8b"
                       className="btn btn-dark d-flex justify-content-center"
+                      target="_blank"
                     >
                       Listen
                     </a>
@@ -154,6 +158,7 @@ export function Discography() {
                     <a
                       href="https://open.spotify.com/album/2ozMuZtWNzXF0arfPgSxY2"
                       className="btn btn-dark d-flex justify-content-center"
+                      target="_blank"
                     >
                       Listen
                     </a>
@@ -187,6 +192,7 @@ export function Discography() {
                     <a
                       href="https://open.spotify.com/album/3i2H6XdDq03iW2bPOv33SP?si=ByW2WksYRri4-rb6vy0sOg"
                       className="btn btn-dark d-flex justify-content-center"
+                      target="_blank"
                     >
                       Listen
                     </a>

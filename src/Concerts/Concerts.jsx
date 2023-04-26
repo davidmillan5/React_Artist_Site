@@ -25,7 +25,10 @@ export function Concerts() {
             <p className="text-center">HUESCA</p>
           </div>
           <div className="col-2 text-center">
-            <a href="https://www.seetickets.com/es/event/rayden-en-leon-la-victoria-imposible/espacio-vias/2553280">
+            <a
+              href="https://www.seetickets.com/es/event/rayden-en-leon-la-victoria-imposible/espacio-vias/2553280"
+              target="_blank"
+            >
               {' '}
               <span class="badge rounded-pill bg-light text-dark text-center p-2">
                 <i class="bi bi-ticket-perforated"></i> Tickets
@@ -45,7 +48,10 @@ export function Concerts() {
             <p className="text-center">TOLEDO</p>
           </div>
           <div className="col-2 text-center">
-            <a href="https://www.seetickets.com/es/event/rayden-en-cordoba-la-victoria-imposible/sala-m100/2553281">
+            <a
+              href="https://www.seetickets.com/es/event/rayden-en-cordoba-la-victoria-imposible/sala-m100/2553281"
+              target="_blank"
+            >
               <span class="badge rounded-pill bg-light text-dark text-center p-2">
                 <i class="bi bi-ticket-perforated"></i> Tickets
               </span>
@@ -64,7 +70,10 @@ export function Concerts() {
             <p className="text-center">LEÓN</p>
           </div>
           <div className="col-2 text-center">
-            <a href="https://www.seetickets.com/es/event/rayden-en-sevilla-la-victoria-imposible/sala-custom/2553282">
+            <a
+              href="https://www.seetickets.com/es/event/rayden-en-sevilla-la-victoria-imposible/sala-custom/2553282"
+              target="_blank"
+            >
               <span class="badge rounded-pill bg-light text-dark text-center p-2">
                 <i class="bi bi-ticket-perforated"></i> Tickets
               </span>
