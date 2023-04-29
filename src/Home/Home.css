@@ -5,3 +5,10 @@
   background-attachment: fixed;
   padding: 25%;
 }
+.banner2 {
+  background-image: url('https://biografiasraperos.files.wordpress.com/2015/05/rayden.jpg');
+  background-position: top center;
+  background-size: 100vw;
+  background-attachment: fixed;
+  padding: 9%;
+}

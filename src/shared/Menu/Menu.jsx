@@ -59,6 +59,11 @@ export function Menu() {
                   Fanzone
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/registration">
+                  Registration
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

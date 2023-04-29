@@ -8,6 +8,7 @@ import { History } from '../History/History';
 import { Shop } from '../Shop/Shop';
 import { Featuring } from '../Featuring/Featuring';
 import { Fanzone } from '../Fanzone/Fanzone';
+import { Registration } from '../Registration/Registration';
 
 export function Router() {
   return (
@@ -21,6 +22,7 @@ export function Router() {
         <Route path="/shop" element={<Shop />}></Route>
         <Route path="/featuring" element={<Featuring />}></Route>
         <Route path="/fanzone" element={<Fanzone />}></Route>
+        <Route path="/registration" element={<Registration />}></Route>
       </Routes>
       <Footer />
     </>
