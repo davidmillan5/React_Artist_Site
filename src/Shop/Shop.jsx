@@ -10,7 +10,7 @@ export const Shop = () => {
       reference: 'Lorem ipsum dolor sit amet.',
       image:
         'https://static.cegal.es/imagenes/marcadas/9788467/978846704746.gif',
-      link: ' ',
+      link: 'https://www.buscalibre.com.co/libro-terminamos-y-otros-poemas-sin-terminar-david-martinez-alvarez-espasa-libros-s-l/9788467047462/p/47310296?bmkt_source=google&bmkt_campaign=878570393&gclid=CjwKCAjwo7iiBhAEEiwAsIxQEaBelH4F29u5dmjcu1YWpIK_Er1kNxImQC7VKX65yBDpVjAI9gWrABoCkuEQAvD_BwE',
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ export const Shop = () => {
       reference: 'Lorem ipsum dolor sit amet.',
       image:
         'https://libreriadelau.vtexassets.com/arquivos/ids/12843019-800-auto?v=637034676901330000&width=800&height=auto&aspect=true',
-      link: ' ',
+      link: 'https://www.buscalibre.com.co/libro-el-mundo-es-un-gato-jugando-con-australia/9789584280312/p/51885345',
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ export const Shop = () => {
       available_units: 15,
       reference: 'Lorem ipsum dolor sit amet.',
       image: 'https://static.megustaleer.com/images/libros/SL97499.jpg',
-      link: '',
+      link: 'https://www.buscalibre.com.co/libro-preventa-acercamiento-de-la-mujer-cactus-el-rayden-suma-de-letras/9788491297499/p/54398494',
     },
     {
       id: 4,
@@ -44,7 +44,7 @@ export const Shop = () => {
       available_units: 15,
       reference: 'Lorem ipsum dolor sit amet.',
       image: 'https://www.cervantes.com/imagen.php?ean=9788408253662&ancho=250',
-      link: '',
+      link: 'https://www.panamericana.com.co/amoratado-638958/p',
     },
     {
       id: 5,
@@ -55,7 +55,7 @@ export const Shop = () => {
       available_units: 10,
       reference: 'Lorem ipsum dolor sit amet.',
       image: 'https://m.media-amazon.com/images/I/81-y+nBVSCL.jpg',
-      link: '',
+      link: 'https://www.buscalibre.com.co/libro-herido-diario-david-martinez-alvarez-martinez-alvarez-rayden-libro-fisico/9788494268687/p/46424399',
     },
     {
       id: 6,
@@ -66,7 +66,7 @@ export const Shop = () => {
       available_units: 15,
       reference: 'Lorem ipsum dolor sit amet.',
       image: 'https://m.media-amazon.com/images/I/51LOp-rgPOL.jpg',
-      link: ' ',
+      link: 'https://www.casadellibro.com.co/libro-cantinela/9788408247173/12460996',
     },
   ];
 

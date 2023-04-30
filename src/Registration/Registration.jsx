@@ -1,4 +1,10 @@
+import Swal from 'sweetalert2';
+
 export const Registration = () => {
+  const alert = async () => {
+    await Swal.fire('Information Submited!');
+  };
+
   return (
     <>
       <section className="container-fluid h-50 banner2">
@@ -50,7 +56,11 @@ export const Registration = () => {
                   placeholder="Age"
                 />
               </div>
-              <button type="button" className="btn btn-light mx-5 my-3 fw-bold">
+              <button
+                type="button"
+                className="btn btn-light mx-5 my-3 fw-bold"
+                onClick={alert}
+              >
                 Send
               </button>
             </form>

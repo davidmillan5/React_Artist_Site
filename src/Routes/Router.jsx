@@ -9,6 +9,7 @@ import { Shop } from '../Shop/Shop';
 import { Featuring } from '../Featuring/Featuring';
 import { Fanzone } from '../Fanzone/Fanzone';
 import { Registration } from '../Registration/Registration';
+import { DiscographyBar } from '../DiscographyBar/DiscographyBar';
 
 export function Router() {
   return (
@@ -16,7 +17,7 @@ export function Router() {
       <Menu />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/discography" element={<Discography />} />
+        <Route path="/discography" element={<DiscographyBar />} />
         <Route path="/concerts" element={<Concerts />} />
         <Route path="/bio" element={<History />} />
         <Route path="/shop" element={<Shop />}></Route>
