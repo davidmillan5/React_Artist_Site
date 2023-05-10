@@ -1,3 +1,4 @@
+import './Shop.css';
 export const Shop = () => {
   let items = [
     {
@@ -70,6 +71,20 @@ export const Shop = () => {
     },
   ];
 
+  // OnClick Event
+
+  const eventHandler = (event) => {
+    event.target.classList.add('blackandwhite');
+  };
+
+  const eventReturn = (event) => {
+    event.target.classList.remove('blackandwhite');
+  };
+
+  const imgEnhancer = (event) => {
+    event.target.classList.add('enhancer');
+  };
+
   return (
     <>
       {/* you map an array */}
@@ -86,6 +101,9 @@ export const Shop = () => {
                   src={item.image}
                   className="card-img-top img-fluid rounded mx-auto d-block my-2"
                   alt="..."
+                  onMouseOver={eventHandler}
+                  onMouseLeave={eventReturn}
+                  onClick={imgEnhancer}
                 />
                 <div className="card-body">
                   <h5 className="card-title text-center">{item.name}</h5>

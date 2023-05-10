@@ -1,0 +1,8 @@
+.blackandwhite {
+  filter: grayscale(1);
+}
+
+.enhancer {
+  width: 1200px;
+  height: 920px;
+}
