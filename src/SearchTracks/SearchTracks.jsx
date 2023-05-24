@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import {
   Container,
   InputGroup,
@@ -78,6 +79,57 @@ export function SearchTracks() {
     // Display Those Tracks to The Users
   }
 
+  // Miliseconds to minutes and seconds
+
+  function millisToMinutesAndSeconds(millis) {
+    var minutes = Math.floor(millis / 60000);
+    var seconds = ((millis % 60000) / 1000).toFixed(0);
+    return minutes + ':' + (seconds < 10 ? '0' : '') + seconds;
+  }
+  const popularity = (ratings) => {
+    if (ratings < 20) {
+      return (
+        <>
+          <i class="bi bi-star-fill"></i>
+        </>
+      );
+    } else if (ratings < 40) {
+      return (
+        <>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </>
+      );
+    } else if (ratings < 60) {
+      return (
+        <>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </>
+      );
+    } else if (ratings < 80) {
+      return (
+        <>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </>
+      );
+    } else {
+      return (
+        <>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+        </>
+      );
+    }
+  };
+
   return (
     <>
       <Container className="my-5 mx-auto px-5">
@@ -110,10 +162,23 @@ export function SearchTracks() {
                   <Card.Subtitle className="my-2">
                     {track.album.artists[0].name}
                   </Card.Subtitle>
+                  <Card.Subtitle className="my-2">
+                    {' '}
+                    Duration:
+                    <span> </span>
+                    {millisToMinutesAndSeconds(track.duration_ms)}
+                  </Card.Subtitle>
+                  <Card.Subtitle className="my-2">
+                    {' '}
+                    Rating:
+                    <span> </span>
+                    {popularity(track.popularity)}
+                  </Card.Subtitle>
                   <audio
                     controls
                     src={track.preview_url}
-                    className="bg-dark pe-5 mt-3"
+                    className="pe-5 mt-4 position-relative d-flex justify-content-around"
+                    id="audio"
                   ></audio>
                 </Card.Body>
               </Card>
