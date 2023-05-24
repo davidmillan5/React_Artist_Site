@@ -27,9 +27,9 @@ export function Router() {
         <Route path="/featuring" element={<Featuring />}></Route>
         <Route path="/fanzone" element={<Fanzone />}></Route>
         <Route path="/registration" element={<Registration />}></Route>
-        <Route path="/music" element={<Music />}></Route>
+        {/* <Route path="/music" element={<Music />}></Route> */}
         <Route path="/topTracks" element={<SearchTracks />}></Route>
-        <Route path="/button" element={<Load />}></Route>
+        {/* <Route path="/button" element={<Load />}></Route> */}
       </Routes>
       <Footer />
     </>
