@@ -11,6 +11,7 @@ import { Fanzone } from '../Fanzone/Fanzone';
 import { Registration } from '../Registration/Registration';
 import { DiscographyBar } from '../DiscographyBar/DiscographyBar';
 import { Load } from '../Hook/Load';
+import { Music } from '../Music/Music';
 
 export function Router() {
   return (
@@ -25,6 +26,7 @@ export function Router() {
         <Route path="/featuring" element={<Featuring />}></Route>
         <Route path="/fanzone" element={<Fanzone />}></Route>
         <Route path="/registration" element={<Registration />}></Route>
+        <Route path="/Music" element={<Music />}></Route>
         <Route path="/button" element={<Load />}></Route>
       </Routes>
       <Footer />
