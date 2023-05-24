@@ -74,6 +74,11 @@ export function Menu() {
                   Music
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/topTracks">
+                  Top Tracks
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

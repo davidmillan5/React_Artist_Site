@@ -1,6 +1,6 @@
 export async function serviceSongs() {
   const URI = `https://api.spotify.com/v1/artists/6G43BFwUJvFWbev3knhgEa/top-tracks?market=ES`;
-  const TOKEN = `Bearer BQC5pxjTdEYDR52G4oZUEt02cDm47CLshs6dZH7JHFWNYKUIzkqKdziTn-ji6Z0b-eEqFJGY3JfP4FAzuiwy91UpT4MXNrBOHhNQS1YgIH1_bOU9B_Y`;
+  const TOKEN = `Bearer BQCc4QCTCWzSOvdX5qdfeVNDTbfsdphlN9w7m1vmwoy_AgXHCn89tEXnlmMco3t-fn6ceUZ4SohCV_xeokjzClOyAIbokv0Ag-YquuFDeqff1LJImcc`;
 
   let request = {
     method: 'GET',

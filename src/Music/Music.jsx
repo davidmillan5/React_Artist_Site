@@ -23,11 +23,15 @@ export const Music = () => {
         {songs.map((song) => {
           return (
             <>
-              <audio
-                controls
-                src={song.preview_url}
-                className="m-5 justify-center"
-              ></audio>
+              <div className="container">
+                <p className="text-center">{song.name}</p>
+                <p className="text-center">{song.album.name}</p>
+                <audio
+                  controls
+                  src={song.preview_url}
+                  className="m-5 text-center"
+                ></audio>
+              </div>
             </>
           );
         })}

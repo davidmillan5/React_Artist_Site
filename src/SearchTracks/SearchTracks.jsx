@@ -12,10 +12,10 @@ import { useState, useEffect } from 'react';
 const CLIENT_ID = 'c4e4d2868b494d09b6c3cc58ee500090';
 const CLIENT_SECRECT = '4913008ece8f45a9913114fc98f5f1bd';
 
-export function DiscographyBar() {
+export function SearchTracks() {
   const [searchInput, setSearchInput] = useState('');
   const [accessToken, setAccessToken] = useState('');
-  const [albums, setAlbums] = useState([]);
+  const [tracks, setTracks] = useState([]);
 
   useEffect(() => {
     // API Access Token
@@ -59,22 +59,23 @@ export function DiscographyBar() {
       });
 
     console.log('Artist ID is ' + artistID);
-    // Get request with Artist ID grab all the albums from the artist
-    var returnedAlbums = await fetch(
+    // Get request with Artist ID grab all the tracks from the artist
+    var returnedTracks = await fetch(
       'https://api.spotify.com/v1/artists/' +
         artistID +
-        '/albums' +
-        '?include_groups=album&market=US&limit=50',
+        '/top-tracks' +
+        '?market=ES',
       searchParameters
     )
       .then((response) => response.json())
       .then((data) => {
+        console.log('data');
         console.log(data);
-        setAlbums(data.items);
-        console.log('Albums --->' + albums);
+        setTracks(data.tracks);
+        console.log('tracks---> ' + tracks);
       });
-    console.log(albums);
-    // Display Those Albums to The Users
+
+    // Display Those Tracks to The Users
   }
 
   return (
@@ -98,20 +99,23 @@ export function DiscographyBar() {
       </Container>
       <Container>
         <Row className="mx-2 row row-cols-4">
-          {albums.map((album, i) => {
-            console.log(album);
+          {tracks.map((track) => {
             return (
-              <Card key={album.id} className="m-5 p-4 text-center">
-                <Card.Img src={album.images[0].url} />
+              <Card key={track.id} className="m-5 p-4 text-center">
+                <Card.Title className="">{track.name}</Card.Title>
+                <Card.Img src={track.album.images[0].url} />
                 <Card.Body>
-                  <Card.Title>{album.name}</Card.Title>
+                  {/* <Card.Title className="">{track.name}</Card.Title> */}
+                  <Card.Title>{track.album.name}</Card.Title>
                   <Card.Subtitle className="my-2">
-                    {album.artists[0].name}
+                    {track.album.artists[0].name}
                   </Card.Subtitle>
+                  <audio
+                    controls
+                    src={track.preview_url}
+                    className="bg-dark pe-5 mt-3"
+                  ></audio>
                 </Card.Body>
-                <a href={album.external_urls.spotify} className="btn btn-dark">
-                  Listen
-                </a>
               </Card>
             );
           })}
